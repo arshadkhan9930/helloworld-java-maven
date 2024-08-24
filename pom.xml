@@ -26,13 +26,9 @@
   
   <build>
 	<plugins>
-		<!-- ... -->
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-javadoc-plugin</artifactId>
-			<configuration>
-                    		<javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
-                	</configuration>
 			<executions>
 				<execution>
 					<id>attach-javadocs</id>
@@ -42,7 +38,6 @@
 				</execution>
 			</executions>
 		</plugin>
-		<!-- ... -->
 	</plugins>
 	</build>
   
